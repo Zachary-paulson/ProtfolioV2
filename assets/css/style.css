@@ -68,6 +68,13 @@ html, body{
    margin-top: 1rem;
 }
 
+.profile2{
+  height: 425px;
+  width: 425px;
+  border:2px solid #b4b4b4;
+  
+}
+
 .fa-html5 {
   color: #e54d26;
 }
@@ -128,6 +135,10 @@ hr.light {
   }
 }
 @media (max-width: 768px) {
+  .profile{
+    height: 85px;
+    width: 85px;
+  }
   .carousel-caption{
     top: 45%;
   }
@@ -152,6 +163,10 @@ hr.light {
   
 }
 @media (max-width: 576px) {
+  .profile{
+    height: 65px;
+    width: 65px;
+  }
   .carousel-caption{
     top: 40%;
   }
